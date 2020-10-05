@@ -1,0 +1,16 @@
+.paneGrafico {
+	-fx-background-color:  black;
+}
+
+.axis{
+    -fx-tick-label-fill: yellow;
+}
+
+.btSalvar {
+	-fx-cursor: hand;
+}
+
+.btSalvar:hover {
+	-fx-background-color: green;
+	-fx-text-fill: white;
+}
