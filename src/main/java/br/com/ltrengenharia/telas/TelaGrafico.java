@@ -105,7 +105,7 @@ public class TelaGrafico extends Application {
 		BaixarDados.setOnAction(e -> { 
 			Thread thread = new Thread(() -> {
 				scene.setCursor(Cursor.WAIT);
-				controle.baixarNSeguidores();
+				controle.baixarNSeguidores(); 
 				testaThreadAndResetSeries();
 				scene.setCursor(Cursor.DEFAULT);
 			});
